@@ -1,0 +1,100 @@
+body{
+    text-align:  center;
+    font-family: "Finlandica", sans-serif;
+    text-shadow: 2px 2px #00387D;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#00387D, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*suomen lipun värit: punainen #D62036, sininen #00387D,valkoinen #FFFFFF*/
+#kekkonen{
+    border: solid #ffffff;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(0 0 5)
+}
+
+#ika{
+    border: solid #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background: #00387D;
+} 
+#pvm {
+    margin-top: -18px;
+    border: solid #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background: #00387D;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*<div class="hallitus-kohta">
+        <h2 class="hallitus-otsikko">Kekkosen I hallitus</h2>
+        <h3 class="hallitus-vinkki">(Hover over the hallitus)</h3>
+        <div class="hallitus-kuva"></div>*/
+.hallitus-kohta{
+    margin-top: 50px;
+}
+
+.hallitus-otsikko{
+    margin-bottom: 10px;
+}
+
+.hallitus-vinkki{
+    margin-top: 0;
+}
+
+.hallitus-kuva{
+    height: 400px;
+    width: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("valtiolippu.png");
+    background-size: cover;
+}
+
+#hallitus1:hover {
+    background-size: cover;
+    background-image: url("hallitus1.jpg");
+}
+
+#hallitus2:hover {
+    background-size: cover;
+    background-image: url("hallitus2.jpg");
+}
+
+#hallitus3:hover {
+    background-size: cover;
+    background-image: url("hallitus3.jpg");
+}
+
+#hallitus4:hover {
+    background-size: cover;
+    background-image: url("hallitus4.jpg");
+}
+
+#hallitus5:hover {
+    background-size: cover;
+    background-image: url("hallitus5.jpg");
+}
+
+.jalka {
+    border: solid #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background: #00387D;
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto;
+}
